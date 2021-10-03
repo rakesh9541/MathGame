@@ -1,0 +1,276 @@
+html{
+    background:radial-gradient(#b49967,rgb(238, 215, 180));
+    height:100%;
+    place-items:centre;
+}
+#main__container{
+    background-color:rgb(157, 181, 204);
+    height:660px;
+    width:750px;
+    margin:auto;
+    margin-top:40px;
+    border-radius:30px;
+    box-shadow:5px 10px 30px rgb(69, 108, 131);
+    display:none;
+}
+#score__box{
+    position:absolute;
+    margin-left:650px;
+    padding:10px;
+    margin-top:20px;
+    color:white;
+    font-size:20px;
+    background-color:rgb(103, 128, 179);
+    border-radius:10px;
+    box-shadow:5px 5px 15px rgb(46, 66, 134);
+}
+#correct{
+    position:absolute;
+    margin-left:330px;
+    color:white;
+    font-size:20px;
+    background-color:rgb(63, 143, 63);
+    margin-top:20px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow:5px 5px 15px rgb(12, 78, 12);
+    display:none;
+}
+#wrong{
+    background-color:rgb(192, 66, 66);
+    position:absolute;
+    margin-left:330px;
+    margin-top:20px;
+    padding:10px;
+    color:white;
+    font-size:20px;
+    border-radius:10px;
+    box-shadow:5px 5px 15px rgb(100, 21, 21);
+    display:none;
+}
+#question__box{
+    background-color:rgb(205, 224, 243);
+    position:absolute;
+    margin-top:100px;
+    margin-left:50px;
+    width:650px;    
+    height:200px;
+    border-radius:10px;
+    box-shadow: 5px 5px 15px rgb(74, 98, 143);
+    font-size:100px;
+    text-align:center;
+    line-height:2;
+}
+#select__answer{
+    background-color:rgb(73, 111, 168);
+    position:absolute;
+    width:650px;
+    margin-top:318px;
+    margin-left:50px;
+    height:60px;
+    color:white;
+    border-radius:10px;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    line-height:2;
+    box-shadow:5px 5px 15px rgb(41, 66, 114);
+}
+#option1{
+    position:absolute;
+    margin-left:50px;
+    height:120px;
+    width:140px;
+    border-radius:10px;
+}
+#option2{
+    position:absolute;
+    margin-left:220px;
+    height:120px;
+    width:140px;
+    border-radius:10px;
+}
+#option3{
+    position:absolute;
+    margin-left:390px;
+    height:120px;
+    width:140px;
+    border-radius:10px;
+}
+#option4{
+    position:absolute;
+    margin-left:560px;
+    height:120px;
+    width:140px;
+    border-radius:10px;
+}
+.option{
+    background-color:white;
+    text-align:center;
+    font-size:40px;
+    color:black;
+    margin-top:400px;
+    line-height:2.8;
+    box-shadow:0px 5px  rgb(156, 147, 147);
+    transition: 0.3s;
+}
+.option:hover {
+ cursor:pointer;
+ margin-top:405px;
+ box-shadow:0px 0px;
+ color:white;
+ background-color:rgb(120, 156, 211);
+}
+.option:active{
+    background-color:rgb(48, 95, 180);
+}
+#start__restart{
+    position:absolute;
+    margin-left:340px;
+    background-color:rgb(122, 118, 118);
+    margin-top:570px;
+    font-size:25px;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0px 5px rgb(73, 72, 72);
+}
+#start__restart:hover{
+    cursor:pointer;
+    background-color:rgb(99, 96, 96);
+}
+#start__restart:active{
+    background-color:rgb(80, 77, 77);
+    margin-top: 575px;
+    box-shadow:0px 0px;
+}
+
+#game__over{
+    background:linear-gradient(orange,rgb(240, 240, 83));
+    position:absolute;
+    height:300px;
+    width:500px;
+    margin-top:150px;
+    margin-left:120px;
+    border-radius:20px;
+    border:5px solid orangered;
+    padding:10px;
+    display:none;
+}
+#start__game{
+    position:absolute;
+    background-color:rgb(171, 194, 87);
+    width:700px;
+    height:120px;
+    margin-left:10px;
+    padding:5px;
+    text-align:center;
+    margin-top:270px;
+    border-radius:20px;
+    line-height:4;
+    border:10px ridge green;
+    font-size: 30px;
+    font-weight:bold;
+}
+#game{
+    position:absolute;
+    margin-top:10px;
+    font-size:60px;
+    margin-left:100px;
+    padding:10px;
+}
+#details{
+    padding:10px;
+    position:absolute;
+    font-size:30px;
+    text-align:center;
+}
+#your__score{
+    margin-left:120px;
+    margin-top:96px;
+    font-size:40px;
+}
+#operator__main{
+    position:absolute;
+    background-color:rgb(184, 130, 130);
+    margin-left:500px;
+    margin-top:160px;
+    height:300px;
+    width:500px;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:5px 10px 20px rgb(131, 77, 77);
+}
+#welcome{
+    margin-top:10px;
+    color:white;
+    text-align:center;
+    font-size:50px;
+}
+#operator{
+    position:absolute;
+    margin-top:-20px;
+    margin-left:80px;
+    color:white;
+    text-align:center;
+    font-size:40px;
+    line-height:3;
+}
+#op1{
+    position:absolute;
+    margin-left:20px;
+    height:100px;
+    width:100px;
+    font-size:70px;
+    text-align:center;
+    line-height:1.4;
+    border-radius:10px;
+}
+#op2{
+    position:absolute;
+    margin-left:140px;
+    height:100px;
+    width:100px;
+    font-size:70px;
+    text-align:center;
+    line-height:1.4;
+    border-radius:10px;
+}
+#op3{
+    position:absolute;
+    margin-left:260px;
+    height:100px;
+    width:100px;
+    font-size:70px;
+    text-align:center;
+    line-height:1.4;
+    border-radius:10px;
+}
+#op4{
+    position:absolute;
+    margin-left:380px;
+    height:100px;
+    width:100px;
+    font-size:70px;
+    text-align:center;
+    line-height:1.4;
+    border-radius:10px;
+}
+.op{
+    background-color: white;
+    margin-top:100px;
+    box-shadow:0px 8px rgb(172, 99, 99);
+    transition:0.3s;
+    color:rgb(136, 89, 89);
+}
+.op:hover{
+    background-color:rgb(150, 80, 80);
+    margin-top:108px;
+    color:white;
+    cursor: pointer;
+    box-shadow:0px 0px;
+}
+.op:active{
+    background-color: rgb(236, 174, 174);
+    color:white;
+}
